@@ -1,0 +1,20 @@
+{
+  "name": "webforge-js-shimney",
+  "version": "0.1.0",
+  "description": "Shim packages based on npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webforge-labs/shimney-js.git"
+  },
+  "keywords": [
+    "shim",
+    "npm",
+    "package"
+  ],
+  "author": "Philipp Scheit <p.scheit@ps-webforge.com>",
+  "license": "MIT"
+}
