@@ -76,6 +76,8 @@ define(['knockout'], function(ko) {
 });
 ```
 
+Notice: in this example /js/modules is rewrited to the node_modules/ directory in the project root (next to the package.json). You can use apache's `/alias` for this.
+
 ## FAQ
 
 ### requirejs? npm? amd? gruntjs? what is all this?
