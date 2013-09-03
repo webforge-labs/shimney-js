@@ -16,14 +16,23 @@ module.exports = function(grunt) {
     var shimney = new Shimney(grunt);
     var done = this.async();
 
-    var shim = shimney.loadShim(name);
+    var shim;
+    if (todo !== 'verify-all') {
+      shim = shimney.loadShim(name);
 
-    grunt.verbose.writeln('loaded shim package:');
-    grunt.verbose.writeflags(shim);
+      grunt.verbose.writeln('loaded shim package:');
+      grunt.verbose.writeflags(shim);
+    }
 
     if (todo === 'publish') {
       shimney.prePublish(shim, done);
       shimney.publish(shim, done);
+    } else if (todo === 'verify-all') {
+      shimney.verifyAll(done);
+    } else if (todo === 'verify') {
+      shimney.verify(shim, done);
+    } else {
+      grunt.fatal('todo: '+todo+' is not avaible.');
     }
   });
 };

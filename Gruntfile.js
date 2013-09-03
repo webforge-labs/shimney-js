@@ -16,6 +16,15 @@ module.exports = function(grunt) {
 
 
     shimney: {
+      /* publish:name 
+
+         pushes the shimney in the shimneys/name directory to npm. Package.json will be created from the shimneys/name.json file
+      */
+
+      /* verify 
+
+         checks if all shimneys are published in the current version in their shimney config.version
+      */
     },
 
     jshint: {
