@@ -1,0 +1,35 @@
+{
+  "name": "hogan.js",
+  "version": "2.0.0",
+  "packageJSON": {
+    "description": "A mustache compiler.",
+    "author": {
+      "name": "Twitter Inc."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/twitter/hogan.js.git"
+    },
+    "keywords": [
+      "mustache",
+      "template"
+    ],
+    "homepage": "http://twitter.github.com/hogan.js/",
+    "licenses": [
+      {
+        "type": "Apache-2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0"
+      }
+    ]
+  },
+
+  "strategy": {
+    "type": "npm install and copy",
+    "args": {
+      "name": "hogan.js",
+      "files": {
+        "main:" "/web/builds/<%= version %>/hogan-<%= version ?>.amd.js"
+      }
+    }
+  }
+}

@@ -14,10 +14,10 @@ For more details, see
 ```javascript
 requirejs.config({
 
-  "packages": {
+  "packages": [{
     name: 'knockout',
     location: '/js/node_modules/shimney-knockout' // adjust path to a web url to your npm_modules repository
-  }
+  }]
 
 });
 ```
