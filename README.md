@@ -35,10 +35,12 @@ Configure your requirejs to include the node module as an [requirejs package](ht
 ```javascript
 requirejs.config({
 
-  "packages": {
-    name: '<yourPackage>',
-    location: 'web/path/to/npm_modules/shimney-<yourPackage>'
-  }
+  "packages": [
+    {
+      name: '<yourPackage>',
+      location: 'web/path/to/node_modules/shimney-<yourPackage>'
+    }
+  ]
 
 });
 ```
@@ -62,10 +64,12 @@ npm install shimney-knockout --save
 ```javascript
 requirejs.config({
 
-  "packages": {
-    name: 'knockout',
-    location: '/js/modules/shimney-knockout'
-  }
+  "packages": [
+    {
+      name: 'knockout',
+      location: '/js/modules/shimney-knockout'
+    }
+  ]
 
 });
 
