@@ -12,7 +12,7 @@ var Shimney = require('../lib/shimney');
 module.exports = function(grunt) {
   'use strict';
 
-  grunt.registerTask('shimney', 'Manage cherished shim repositories.', function (todo, name) {
+  grunt.registerTask('shimney', 'Manage cherished shim repositories. use grunt shimney:publish:name to publish', function (todo, name) {
     var shimney = new Shimney(grunt);
     var done = this.async();
 

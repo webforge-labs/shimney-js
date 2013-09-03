@@ -17,6 +17,7 @@ module.exports = function(grunt) {
   this.createShimneyConfigFromNPM = function(npmPackage) {
 
     var copyKeys = {
+      'title': true,
       'author':true,
       'description':true,
       'homepage':true,
