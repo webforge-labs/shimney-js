@@ -1,0 +1,17 @@
+{
+  "name": "json",
+  "version": "1.0.0",
+
+  "packageJSON": {
+    "description": "Douglas Crawford's JSON2, ported to a CommonJS compliant module",
+    "author": "Douglas Crockford <douglas@crockford.com>",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/douglascrockford/JSON-js"
+    }
+  },
+
+  "strategy": {
+    "name": "manual download",
+  }
+}
