@@ -1,6 +1,7 @@
 {
-  "name": "hogan.js",
+  "name": "hogan",
   "version": "2.0.0",
+
   "packageJSON": {
     "description": "A mustache compiler.",
     "author": {
@@ -28,7 +29,7 @@
     "args": {
       "name": "hogan.js",
       "files": {
-        "main:" "/web/builds/<%= version %>/hogan-<%= version ?>.amd.js"
+        "main": "/web/builds/<%= version %>/hogan-<%= version ?>.amd.js"
       }
     }
   }
