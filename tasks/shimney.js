@@ -26,7 +26,7 @@ module.exports = function(grunt) {
 
     if (todo === 'publish') {
       shimney.prePublish(shim, done);
-      shimney.publish(shim, done);
+      shimney.publish(shim, done, this.flags.republish);
     } else if (todo === 'verify-all') {
       shimney.verifyAll(done);
     } else if (todo === 'verify') {
