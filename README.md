@@ -1,8 +1,8 @@
 # shimney
 
-Shims for popular libraries installable with nodes package manager: npm, designed for use in requirejs AMD projects.
+Shim packages for popular libraries installable with nodes package manager: npm, designed for use in requirejs AMD projects.
 
-So whats comming down the shimney tonight?
+So what's comming down the shimney tonight? It's a lot of nice packages!
 
 ## the idea
 
