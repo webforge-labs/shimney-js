@@ -80,7 +80,7 @@ define(['knockout'], function(ko) {
 });
 ```
 
-Notice: in this example /js/modules is rewrited to the node_modules/ directory in the project root (next to the package.json). You can use apache's `/alias` for this.
+Notice: in this example /js/modules is rewritten to the node_modules/ directory in the project root (next to the package.json). You can use apache's `/alias` for this. But be aware that this will conflict with r.js which is not able to read those aliases.
 
 ## FAQ
 
@@ -100,7 +100,7 @@ please file a issue on this repository
 
 ### phew this requirejs config thingy is really difficult
 
-we will try to release a gruntplugin for that as soon as we can.
+Every shimney needs a good sweeper, to work perfectly. So hear it is: [grunt-shimney-sweeper](https://github.com/webforge-labs/grunt-shimney-sweeper). Install your shimneys with npm told above. Run the update-config task from the sweeper to generate your config.
 
 ### do I need to install this repository / module?
 
@@ -112,4 +112,4 @@ We are a small company developing for clients and open source projects in php an
 
 ## Licence
 
-MIT (but consider the licenses from every single shimney package)
+MIT (but consider the licenses from every single shimney package in package.json)
