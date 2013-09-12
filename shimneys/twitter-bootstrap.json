@@ -21,6 +21,6 @@
 
   "assets": {
     "css": ["css/bootstrap.css", "css/bootstrap-responsive.css"],
-    "img": ["img/glyphicons-halflings.png", "img/glyphicons-halflings-white"]
+    "img": ["img/glyphicons-halflings.png", "img/glyphicons-halflings-white.png"]
   }
 }
