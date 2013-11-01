@@ -1,0 +1,24 @@
+{
+  "name": "knockout-mapping",
+  "version": "2.4.1",
+  "packageJSON": {
+    "description": "The mapping plugin gives you a straightforward way to map plain JavaScript objects into a view model with the appropriate Knockout observables. This is an alternative to manually writing your own JavaScript code that constructs a view model based on some data you've fetched from the server.",
+    "author": {
+      "name": "Roy Jacobs"
+    },
+    "homepage": "http://knockoutjs.com/documentation/plugins-mapping.html",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/SteveSanderson/knockout.mapping"
+    },
+    "license": "MIT",
+    "bugs": "https://github.com/SteveSanderson/knockout.mapping/issues"
+  },
+
+  "strategy": {
+    "name": "copy-amd-files",
+    "args": {
+      "main": "build/output/knockout.mapping-latest.js"
+    }
+  }
+}
