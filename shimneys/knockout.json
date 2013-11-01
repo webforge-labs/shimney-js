@@ -1,6 +1,6 @@
 {
   "name": "knockout",
-  "version": "2.3.0",
+  "version": "3.0.0",
   "packageJSON": {
     "description": "Knockout makes it easier to create rich, responsive UIs with JavaScript",
     "author": {
@@ -8,10 +8,10 @@
     },
     "repository": {
       "type": "git",
-      "url": "https://github.com/SteveSanderson/knockout.git"
+      "url": "https://github.com/knockout/knockout"
     },
     "license": "MIT",
-    "bugs": "https://github.com/SteveSanderson/knockout/issues"
+    "bugs": "https://github.com/knockout/knockout/issues"
   },
 
   "strategy": {
