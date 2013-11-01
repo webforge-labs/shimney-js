@@ -1,6 +1,6 @@
 {
   "name": "lodash",
-  "version": "1.3.1",
+  "version": "2.2.1",
   "packageJSON": {
     "description": "A utility library delivering consistency, customization, performance, and extras.",
     "author": {
@@ -26,5 +26,8 @@
     "bugs": {
       "url": "https://github.com/lodash/lodash/issues"
     }
-  }
+  },
+  "info": [
+    "use the compat release"
+  ]
 }
