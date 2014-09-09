@@ -1,11 +1,24 @@
 {
   "name": "twitter-bootstrap",
-  "version": "2.3.1",
+  "version": "3.2.0",
   "packageJSON": {
-    "description": "Sleek, intuitive, and powerful front-end framework for faster and easier web development.",
-    "keywords": ["bootstrap", "css"],
-    "homepage": "http://twbs.github.com/bootstrap/",
-    "author": "Twitter Inc.",
+    "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+    "keywords": [
+      "css",
+      "less",
+      "mobile-first",
+      "responsive",
+      "front-end",
+      "framework",
+      "web"
+    ],
+    "homepage": "http://getbootstrap.com",
+    "author": "Twitter, Inc.",
+    "scripts": {
+      "test": "grunt test"
+    },
+    "style": "dist/css/bootstrap.css",
+    "less": "less/bootstrap.less",
     "repository": {
       "type": "git",
       "url": "https://github.com/twbs/bootstrap.git"
@@ -13,14 +26,14 @@
     "bugs": {
       "url": "https://github.com/twbs/bootstrap/issues"
     },
-    "licenses": [{
-      "type": "Apache-2.0",
-      "url": "http://www.apache.org/licenses/LICENSE-2.0"
-    }]
+    "license": {
+      "type": "MIT",
+      "url": "https://github.com/twbs/bootstrap/blob/master/LICENSE"
+    }
   },
 
   "assets": {
-    "css": ["css/bootstrap.css", "css/bootstrap-responsive.css"],
+    "css": ["css/bootstrap.css", "css/bootstrap-theme.css"],
     "img": ["img/glyphicons-halflings.png", "img/glyphicons-halflings-white.png"]
   }
 }
