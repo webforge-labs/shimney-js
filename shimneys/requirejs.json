@@ -1,0 +1,21 @@
+{
+  "name": "requirejs",
+  "version": "2.1.15",
+
+  "packageJSON": {
+    "description": "A file and module loader for JavaScript",
+    "author": "The Dojo Foundation",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jrburke/requirejs"
+    },
+    "bugs": "https://github.com/jrburke/requirejs/issues",
+    "keywords": [],
+    "homepage": "http://requirejs.org/",
+    "licenses": ["MIT", "BSD"]
+  },
+
+  "assets": {
+    "js": ["requirejs.json.js", "requirejs.text.js"]
+  }
+}
