@@ -1,6 +1,6 @@
 {
   "name": "twitter-bootstrap",
-  "version": "3.2.0",
+  "version": "3.2.0-build.3",
   "packageJSON": {
     "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
     "keywords": [
@@ -33,7 +33,31 @@
   },
 
   "assets": {
-    "css": ["css/bootstrap.css", "css/bootstrap-theme.css"],
-    "img": ["img/glyphicons-halflings.png", "img/glyphicons-halflings-white.png"]
+    "js": [
+      "amd/affix.js", 
+      "amd/alert.js",
+      "amd/button.js",
+      "amd/carousel.js",
+      "amd/collapse.js",
+      "amd/dropdown.js",
+      "amd/modal.js",
+      "amd/popover.js",
+      "amd/scrollspy.js",
+      "amd/tab.js",
+      "amd/tooltip.js",
+      "amd/transition.js"
+    ],
+    "css": [
+      "css/bootstrap.css",
+      "css/bootstrap.min.css",
+      "css/bootstrap-theme.css",
+      "css/bootstrap-theme.min.css"
+    ],
+    "fonts": [
+      "fonts/glyphicons-halflings-regular.eot",
+      "fonts/glyphicons-halflings-regular.svg",
+      "fonts/glyphicons-halflings-regular.ttf",
+      "fonts/glyphicons-halflings-regular.woff"
+    ]
   }
 }
