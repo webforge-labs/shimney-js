@@ -1,4 +1,4 @@
-define([ 'jquery', './transition' ], function ( jQuery ) {
+define([ 'jquery', './transition', './tooltip' ], function ( jQuery ) {
 /* ========================================================================
  * Bootstrap: popover.js v3.2.0
  * http://getbootstrap.com/javascript/#popovers
