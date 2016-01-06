@@ -1,7 +1,7 @@
 {
   "name": "json",
   "moduleID": "JSON",
-  "version": "1.0.0",
+  "version": "1.0.0-build.1",
 
   "packageJSON": {
     "description": "Douglas Crawford's JSON2, ported to a CommonJS compliant module",
